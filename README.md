@@ -8,13 +8,13 @@ Configmap.yaml
 
 In this file YAML code defines a Kubernetes ConfigMap named “mysql-config” that stores configuration data for a MySQL database. Here’s a brief explanation:
 
-    -apiVersion and kind specify that this is a ConfigMap resource.
-    -metadata provides metadata about the ConfigMap, including its name “mysql-config”.
-    -data contains the configuration data as key-value pairs:
-        -DATABASE: “sanjeev” (database name)
-        -USER: “samir” (database user)
-        -PASSWORD: “sanjeev1234” (database password)
-        -ROOT_PASSWORD: “samir678” (database root password)
+    - apiVersion and kind specify that this is a ConfigMap resource.
+    - metadata provides metadata about the ConfigMap, including its name “mysql-config”.
+    - data contains the configuration data as key-value pairs:
+        - DATABASE: “sanjeev” (database name)
+        - USER: “samir” (database user)
+        - PASSWORD: “sanjeev1234” (database password)
+        - ROOT_PASSWORD: “samir678” (database root password)
 
 ## Mysql_deployment.yaml
 
@@ -80,11 +80,11 @@ In short, it exposes WordPress on port 80, making it accessible from outside the
 
 ## Steps for project:-
 
-    create a repoitory in Github
-    Clone the repository in local terminal with command git clone repository code
-    In the directory create yaml files with vim command. The files explained above.
-    After checking wordpress running succesfully use command git add. The git add command is used to stage changes in your working directory to the staging area. It tells Git that you want to include changes in your next commit.
-    After adding use commit command git commit -m "any message" The git commit command is used to save changes in your staging area (index) to your local repository. It commits the changes you’ve staged with git add and creates a new commit snapshot.
-    Use the push command . The git push command is used to upload your local repository changes to a remote repository. It updates the remote repository with your local changes, allowing others to access and collaborate on your work. git push
+    1. create a repoitory in Github
+    2. Clone the repository in local terminal with command git clone repository code
+    3. In the directory create yaml files with vim command. The files explained above.
+    4. After checking wordpress running succesfully use command git add. The git add command is used to stage changes in your working directory to the staging area. It tells Git that you want to include changes in your next commit.
+    5. After adding use commit command git commit -m "any message" The git commit command is used to save changes in your staging area (index) to your local repository. It commits the changes you’ve staged with git add and creates a new commit snapshot.
+    6. Use the push command . The git push command is used to upload your local repository changes to a remote repository. It updates the remote repository with your local changes, allowing others to access and collaborate on your work. git push
 
 After that checked the repository in my GITHUB profile and all the files we created in the directory were pushed to it.
